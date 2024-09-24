@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="login">
+        <form id="form">
+            <h1>Log In</h1>
+            <div class="inputbox">
+                <input id="username" type="text" placeholder="Username">
+                <div class="error"></div>
+            </div>
+
+            <div class="inputbox">
+                <input id="email" type="text" placeholder="email">
+                <div class="error"></div>
+            </div>
+
+            <div class="inputbox">
+                <input id="password" type="password" placeholder="password">
+                <div class="error"></div>
+            </div>
+
+            <div class="forgot">
+                <label><input type="checkbox">Remember Me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="login" onclick="validateInputs()">login</button>
+
+
+        </form>
+    </div>
+    <div class="translate">
+        
+        <a href="./translate.html">Translate</a>
+
+    
+
+    </div>
+
+
+    <div class="theme">
+        <button onclick="colorBlack()">Black</button>
+
+        <button onclick="colorSteelblue()">steelblue</button>
+
+    </div>
+
+
+
+
+
+
+    <script src="./JS/script.js"></script>
+
+</body>
+
+</html>
